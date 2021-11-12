@@ -1,0 +1,1312 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-06-15 16:27+0530\n"
+"PO-Revision-Date: 2020-09-17 20:19+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: .\n"
+
+#: includes/admin-ajax-search.php:12 includes/admin-ajax-search.php:33
+#: includes/admin-dashboard.php:54 includes/admin-settings.php:284
+msgid "Ajax Search"
+msgstr ""
+
+#: includes/admin-ajax-search.php:15 includes/admin-countdown-timer.php:24
+#: includes/admin-countdown-timer.php:94 includes/admin-countdown-timer.php:198
+#: includes/admin-order-bump.php:23 includes/admin-order-bump.php:81
+#: includes/admin-pdp-gallery.php:16 includes/admin-pdp-triggers.php:16
+#: includes/admin-waitlist.php:164 includes/admin-waitlist.php:205
+#: includes/admin-waitlist.php:226 includes/admin-waitlist.php:247
+#: includes/admin-wishlist.php:16
+msgid "Enable"
+msgstr ""
+
+#: includes/admin-ajax-search.php:15
+msgid "Enable ajax search in the main search bar"
+msgstr ""
+
+#: includes/admin-ajax-search.php:16
+msgid "Placeholder"
+msgstr ""
+
+#: includes/admin-ajax-search.php:16 includes/module-ajax-search.php:24
+#: includes/module-ajax-search.php:236
+msgid "Search products..."
+msgstr ""
+
+#: includes/admin-ajax-search.php:17
+msgid "Display"
+msgstr ""
+
+#: includes/admin-ajax-search.php:17
+msgid "All contents"
+msgstr ""
+
+#: includes/admin-ajax-search.php:17
+msgid "Just products"
+msgstr ""
+
+#: includes/admin-ajax-search.php:18
+msgid "Tabbed search results"
+msgstr ""
+
+#: includes/admin-ajax-search.php:18
+msgid "Enable search results tabs"
+msgstr ""
+
+#: includes/admin-ajax-search.php:19
+msgid "Preserve selected tab"
+msgstr ""
+
+#: includes/admin-ajax-search.php:19
+msgid "Enable preserve selected tab on next visit"
+msgstr ""
+
+#: includes/admin-ajax-search.php:20
+msgid "&ldquo;Other results&rdquo; text"
+msgstr ""
+
+#: includes/admin-ajax-search.php:20 includes/module-ajax-search.php:38
+msgid "Other results"
+msgstr ""
+
+#: includes/admin-ajax-search.php:21
+msgid "&ldquo;No results&rdquo; text"
+msgstr ""
+
+#: includes/admin-ajax-search.php:21 includes/module-ajax-search.php:23
+msgid "No results"
+msgstr ""
+
+#: includes/admin-ajax-search.php:22
+msgid "&ldquo;View all&rdquo; text"
+msgstr ""
+
+#: includes/admin-ajax-search.php:22 includes/module-ajax-search.php:39
+msgid "View all results"
+msgstr ""
+
+#: includes/admin-ajax-search.php:23
+msgid "Out of stock products"
+msgstr ""
+
+#: includes/admin-ajax-search.php:23
+msgid "Include"
+msgstr ""
+
+#: includes/admin-ajax-search.php:23 includes/admin-ajax-search.php:24
+msgid "Exclude"
+msgstr ""
+
+#: includes/admin-ajax-search.php:24
+msgid ""
+"Enter Product/Page/Post ID&rsquo;s to be excluded, separated by a comma."
+msgstr ""
+
+#: includes/admin-ajax-search.php:25
+msgid "Hide variations"
+msgstr ""
+
+#: includes/admin-ajax-search.php:25
+msgid "Hide variations from search suggestions"
+msgstr ""
+
+#: includes/admin-ajax-search.php:34
+msgid ""
+"Research has shown that instant search results are an important feature on "
+"eCommerce sites. It helps users save time and find products faster."
+msgstr ""
+
+#: includes/admin-countdown-timer.php:14
+msgid "Product Countdown"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:14
+msgid ""
+"The order of the countdowns is important. Drag a countdown to the top to "
+"take precedence."
+msgstr ""
+
+#: includes/admin-countdown-timer.php:20 includes/admin-countdown-timer.php:28
+#: includes/admin-countdown-timer.php:88 includes/admin-countdown-timer.php:98
+#: includes/admin-countdown-timer.php:202 includes/admin-order-bump.php:19
+#: includes/admin-order-bump.php:31 includes/admin-order-bump.php:75
+#: includes/admin-order-bump.php:96
+msgid "Title"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:25 includes/admin-countdown-timer.php:95
+msgid "Enable countdown timer on product page"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:29 includes/admin-countdown-timer.php:99
+msgid "e.g. Hurry! This sale ends in"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:32 includes/admin-countdown-timer.php:102
+#: includes/admin-countdown-timer.php:210
+msgid "Ends"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:34 includes/admin-countdown-timer.php:104
+#: includes/admin-countdown-timer.php:113
+#: includes/module-countdown-timer.php:23
+msgid "DAYS"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:35 includes/admin-countdown-timer.php:44
+#: includes/admin-countdown-timer.php:105
+#: includes/admin-countdown-timer.php:114
+msgid "HOURS"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:36 includes/admin-countdown-timer.php:45
+#: includes/admin-countdown-timer.php:106
+#: includes/admin-countdown-timer.php:115
+#: includes/admin-countdown-timer.php:212
+msgid "MINUTES"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:37 includes/admin-countdown-timer.php:46
+#: includes/admin-countdown-timer.php:107
+#: includes/admin-countdown-timer.php:116
+#: includes/admin-countdown-timer.php:213
+msgid "SECONDS"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:41 includes/admin-countdown-timer.php:111
+msgid "Labels"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:43 includes/admin-countdown-timer.php:113
+msgid "Days"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:44 includes/admin-countdown-timer.php:114
+msgid "Hours"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:45 includes/admin-countdown-timer.php:115
+msgid "Mins"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:46 includes/admin-countdown-timer.php:116
+msgid "Secs"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:50 includes/admin-countdown-timer.php:120
+msgid "Type"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:50 includes/admin-countdown-timer.php:120
+msgid "Evergreen sets a dynamic countdown timer for each visitor"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:51 includes/admin-countdown-timer.php:121
+msgid "One-time"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:51 includes/admin-countdown-timer.php:121
+msgid "Evergreen"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:54 includes/admin-countdown-timer.php:124
+#: includes/admin-order-bump.php:43 includes/admin-order-bump.php:108
+msgid "Conditions"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:57 includes/admin-countdown-timer.php:136
+#: includes/admin-order-bump.php:46 includes/admin-order-bump.php:120
+msgid "All products"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:58 includes/admin-countdown-timer.php:137
+#: includes/admin-order-bump.php:47 includes/admin-order-bump.php:121
+msgid "Specific products"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:59 includes/admin-countdown-timer.php:138
+#: includes/admin-order-bump.php:48 includes/admin-order-bump.php:122
+msgid "All products apart from"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:60 includes/admin-countdown-timer.php:139
+#: includes/admin-order-bump.php:49 includes/admin-order-bump.php:123
+msgid "Specific categories"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:61 includes/admin-countdown-timer.php:140
+#: includes/admin-order-bump.php:50 includes/admin-order-bump.php:124
+msgid "All categories apart from"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:67 includes/admin-order-bump.php:56
+msgid "Specific products:"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:148 includes/admin-order-bump.php:132
+msgid "Specific categories:"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:172
+#: includes/admin-countdown-timer.php:184
+msgid "Delete Countdown"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:185
+msgid "Are you sure you want to delete this product countdown?"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:186 includes/admin-order-bump.php:168
+msgid "This field is required"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:189
+msgid "Add new product countdown"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:193
+msgid "Checkout Countdown"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:199
+msgid "Enable countdown timer on checkout page"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:203
+msgid "e.g. Your order is reserved for:"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:206
+msgid "Expiry Message"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:207
+msgid ""
+"e.g. Times up! But good news! We&rsquo;ve extended your checkout time :)"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:222
+msgid "Countdown Timer"
+msgstr ""
+
+#: includes/admin-countdown-timer.php:223
+msgid ""
+"This feature allows you to run time-limited promotions to create urgency and "
+"drive more clicks from your single product pages to create more sales. You "
+"can also add one to the checkout page to encourage faster completion."
+msgstr ""
+
+#: includes/admin-dashboard.php:13
+msgid "Order Bump Statistics"
+msgstr ""
+
+#: includes/admin-dashboard.php:25
+msgid "Impressions"
+msgstr ""
+
+#: includes/admin-dashboard.php:29
+msgid "Revenue"
+msgstr ""
+
+#: includes/admin-dashboard.php:33
+msgid "Additional Sales"
+msgstr ""
+
+#: includes/admin-dashboard.php:37
+msgid "Click Rate"
+msgstr ""
+
+#: includes/admin-dashboard.php:42
+msgid "Conversion Rate"
+msgstr ""
+
+#: includes/admin-dashboard.php:51
+msgid "CommerceKit Features"
+msgstr ""
+
+#: includes/admin-dashboard.php:51
+msgid "Page Impact"
+msgstr ""
+
+#: includes/admin-dashboard.php:54 includes/admin-dashboard.php:55
+#: includes/admin-dashboard.php:56 includes/admin-dashboard.php:57
+#: includes/admin-dashboard.php:58 includes/admin-dashboard.php:59
+#: includes/admin-dashboard.php:60 includes/admin-dashboard.php:61
+msgid "Inactive"
+msgstr ""
+
+#: includes/admin-dashboard.php:54
+msgid "Instant search results helps users save time and find products faster."
+msgstr ""
+
+#: includes/admin-dashboard.php:54 includes/admin-dashboard.php:61
+msgid "9Kb of HTML"
+msgstr ""
+
+#: includes/admin-dashboard.php:54
+msgid "Loads on all pages."
+msgstr ""
+
+#: includes/admin-dashboard.php:55
+msgid "Countdown Timers"
+msgstr ""
+
+#: includes/admin-dashboard.php:55
+msgid ""
+"Allows you to run time-limited promotions to create urgency and drive more "
+"clicks."
+msgstr ""
+
+#: includes/admin-dashboard.php:55
+msgid "7Kb of HTML"
+msgstr ""
+
+#: includes/admin-dashboard.php:55
+msgid "Loads on product and checkout pages."
+msgstr ""
+
+#: includes/admin-dashboard.php:56 includes/admin-order-bump.php:13
+#: includes/admin-order-bump.php:176 includes/admin-settings.php:286
+msgid "Order Bump"
+msgstr ""
+
+#: includes/admin-dashboard.php:56
+msgid ""
+"Enables a customer to add an additional item to the cart, before they "
+"complete an order."
+msgstr ""
+
+#: includes/admin-dashboard.php:56 includes/admin-dashboard.php:60
+msgid "3Kb of HTML"
+msgstr ""
+
+#: includes/admin-dashboard.php:56
+msgid "Loads only on the checkout."
+msgstr ""
+
+#: includes/admin-dashboard.php:57 includes/admin-settings.php:287
+msgid "Product Gallery"
+msgstr ""
+
+#: includes/admin-dashboard.php:57
+msgid "Enables image gallery on the product details page."
+msgstr ""
+
+#: includes/admin-dashboard.php:57
+msgid "10Kb of HTML"
+msgstr ""
+
+#: includes/admin-dashboard.php:57 includes/admin-dashboard.php:58
+#: includes/admin-dashboard.php:59 includes/admin-dashboard.php:60
+msgid "Loads only on product pages."
+msgstr ""
+
+#: includes/admin-dashboard.php:58 includes/admin-inventory-bar.php:12
+#: includes/admin-inventory-bar.php:38 includes/admin-settings.php:288
+msgid "Stock Meter"
+msgstr ""
+
+#: includes/admin-dashboard.php:58
+msgid ""
+"A visually effective way to alert customers when the stock is low on product "
+"pages."
+msgstr ""
+
+#: includes/admin-dashboard.php:58
+msgid "2Kb of HTML"
+msgstr ""
+
+#: includes/admin-dashboard.php:59
+msgid "Product Details Page Triggers"
+msgstr ""
+
+#: includes/admin-dashboard.php:59
+msgid "Various conversion triggers on the single product page."
+msgstr ""
+
+#: includes/admin-dashboard.php:59
+msgid "1Kb of HTML"
+msgstr ""
+
+#: includes/admin-dashboard.php:60 includes/admin-settings.php:290
+#: includes/admin-waitlist.php:161 includes/admin-waitlist.php:276
+msgid "Waitlist"
+msgstr ""
+
+#: includes/admin-dashboard.php:60
+msgid "Collects emails of interested shoppers when products are sold-out."
+msgstr ""
+
+#: includes/admin-dashboard.php:61 includes/admin-settings.php:291
+#: includes/admin-wishlist.php:12 includes/admin-wishlist.php:38
+#: includes/module-wishlist.php:77 includes/module-wishlist.php:79
+#: includes/module-wishlist.php:168 includes/module-wishlist.php:213
+#: includes/module-wishlist.php:216 includes/module-wishlist.php:253
+#: includes/module-wishlist.php:255 includes/module-wishlist.php:351
+#: includes/module-wishlist.php:378
+msgid "Wishlist"
+msgstr ""
+
+#: includes/admin-dashboard.php:61
+msgid ""
+"Shoppers can create personalized collections of products they want to buy."
+msgstr ""
+
+#: includes/admin-dashboard.php:61
+msgid "Loads on WooCommerce pages."
+msgstr ""
+
+#: includes/admin-dashboard.php:73
+msgid ""
+"Optimize your WooCommerce store for speed and conversions with Shoptimizer. "
+"Shoptimizer is a FAST WooCommerce theme that comes with a ton of features "
+"all designed to help you convert more users to customers."
+msgstr ""
+
+#: includes/admin-dashboard.php:76
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin-dashboard.php:77
+msgid ""
+"Visit the documentation area for a more detailed overview on each of these "
+"features. If you still have questions, you can send us a private ticket by "
+"clicking the Support tab above."
+msgstr ""
+
+#: includes/admin-dashboard.php:78
+msgid "View Documentation"
+msgstr ""
+
+#: includes/admin-dashboard.php:81
+msgid "Connection status"
+msgstr ""
+
+#: includes/admin-dashboard.php:83
+msgid ""
+"Your website is connected! One click updates for Shoptimizer will appear in "
+"Appearance &rarr; Themes."
+msgstr ""
+
+#: includes/admin-dashboard.php:85
+msgid ""
+"You have not enabled one-click updates for Shoptimizer and CommerceKit. To "
+"do so, please connect your website to your Shoptimizer"
+msgstr ""
+
+#: includes/admin-dashboard.php:85
+msgid "subscription in your account"
+msgstr ""
+
+#: includes/admin-dashboard.php:85
+msgid "View the update guide"
+msgstr ""
+
+#: includes/admin-dashboard.php:85
+msgid "to find out more."
+msgstr ""
+
+#: includes/admin-inventory-bar.php:16
+msgid "Enable stock meter"
+msgstr ""
+
+#: includes/admin-inventory-bar.php:16
+msgid "Show stock meter on the single product page"
+msgstr ""
+
+#: includes/admin-inventory-bar.php:18
+msgid "Low stock text"
+msgstr ""
+
+#: includes/admin-inventory-bar.php:18 includes/module-inventory-bar.php:291
+#, php-format
+msgid "Only %s items left in stock!"
+msgstr ""
+
+#: includes/admin-inventory-bar.php:20 includes/admin-inventory-bar.php:27
+#, php-format
+msgid "Add &ldquo;%s&rdquo; to replace the stock number, "
+msgstr ""
+
+#: includes/admin-inventory-bar.php:22
+#, php-format
+msgid "e.g. Only %s items left in stock!"
+msgstr ""
+
+#: includes/admin-inventory-bar.php:25
+msgid "Regular stock text"
+msgstr ""
+
+#: includes/admin-inventory-bar.php:25 includes/module-inventory-bar.php:294
+#, php-format
+msgid "Less than %s items left!"
+msgstr ""
+
+#: includes/admin-inventory-bar.php:29
+#, php-format
+msgid "e.g. Less than %s items left!"
+msgstr ""
+
+#: includes/admin-inventory-bar.php:30
+msgid "When stock > 100"
+msgstr ""
+
+#: includes/admin-inventory-bar.php:30 includes/module-inventory-bar.php:296
+msgid "This item is selling fast!"
+msgstr ""
+
+#: includes/admin-inventory-bar.php:39
+msgid ""
+"This feature allows you to show a stock meter counter on the single product "
+"page. It&lsquo;s a more visually effective way to alert customers when the "
+"stock level is low."
+msgstr ""
+
+#: includes/admin-order-bump.php:24 includes/admin-order-bump.php:82
+msgid "Enable order bump on checkout"
+msgstr ""
+
+#: includes/admin-order-bump.php:27 includes/admin-order-bump.php:85
+msgid "Select"
+msgstr ""
+
+#: includes/admin-order-bump.php:28 includes/admin-order-bump.php:93
+msgid ""
+"This is the order bump product which will appear on the checkout page. "
+"Simple and variable products only."
+msgstr ""
+
+#: includes/admin-order-bump.php:35 includes/admin-order-bump.php:100
+msgid "Button text"
+msgstr ""
+
+#: includes/admin-order-bump.php:36 includes/module-order-bump.php:36
+#: includes/module-order-bump.php:55
+msgid "Click to add"
+msgstr ""
+
+#: includes/admin-order-bump.php:40 includes/module-order-bump.php:37
+#: includes/module-order-bump.php:56
+msgid "Added!"
+msgstr ""
+
+#: includes/admin-order-bump.php:104
+msgid "Button added"
+msgstr ""
+
+#: includes/admin-order-bump.php:156 includes/admin-order-bump.php:166
+msgid "Delete order bump"
+msgstr ""
+
+#: includes/admin-order-bump.php:167
+msgid "Are you sure you want to delete this product order bump?"
+msgstr ""
+
+#: includes/admin-order-bump.php:171
+msgid "Add new order bump"
+msgstr ""
+
+#: includes/admin-order-bump.php:177
+msgid ""
+"An order bump allows a user to add an additional item to the cart, before "
+"they complete an order. This captures the excitement of making a purchase, "
+"and can increase the average order value. Only one order bump is displayed "
+"at a time on the checkout page."
+msgstr ""
+
+#: includes/admin-pdp-gallery.php:12 includes/admin-pdp-gallery.php:16
+msgid "Product Details Page Image Gallery"
+msgstr ""
+
+#: includes/admin-pdp-gallery.php:17
+msgid "Visible thumbnails"
+msgstr ""
+
+#: includes/admin-pdp-gallery.php:17
+msgid ""
+"Number of gallery thumbnails to display at a time. Minimum 3 and maximum 8."
+msgstr ""
+
+#: includes/admin-pdp-gallery.php:17
+msgid "Please enter number between 3 and 8."
+msgstr ""
+
+#: includes/admin-pdp-gallery.php:18
+msgid "Enable lightbox?"
+msgstr ""
+
+#: includes/admin-pdp-gallery.php:18
+msgid "Enable lightbox on image gallery."
+msgstr ""
+
+#: includes/admin-pdp-gallery.php:26
+msgid "PDP Image Gallery"
+msgstr ""
+
+#: includes/admin-pdp-gallery.php:27
+msgid ""
+"This feature allows you to show image gallery on the product details page."
+msgstr ""
+
+#: includes/admin-pdp-triggers.php:12 includes/admin-pdp-triggers.php:16
+msgid "Product Details Page Sales Triggers"
+msgstr ""
+
+#: includes/admin-pdp-triggers.php:17
+msgid "Minimum number of reviews"
+msgstr ""
+
+#: includes/admin-pdp-triggers.php:17
+#, php-format
+msgid ""
+"Minimum number of reviews required before it is displayed. The average "
+"rating needs to be 70% or greater."
+msgstr ""
+
+#: includes/admin-pdp-triggers.php:19
+msgid "Trigger text"
+msgstr ""
+
+#: includes/admin-pdp-triggers.php:19 includes/module-pdp-triggers.php:35
+#, php-format
+msgid "Good choice! %s of buyers were satisfied with this."
+msgstr ""
+
+#: includes/admin-pdp-triggers.php:21
+#, php-format
+msgid "Add &ldquo;%s&rdquo; to replace the percentage, "
+msgstr ""
+
+#: includes/admin-pdp-triggers.php:23
+#, php-format
+msgid "e.g. Good choice! %s of buyers were satisfied with this."
+msgstr ""
+
+#: includes/admin-pdp-triggers.php:32
+msgid "PDP Sales Triggers"
+msgstr ""
+
+#: includes/admin-pdp-triggers.php:33
+msgid ""
+"This feature allows you to show conversion triggers on the single product "
+"page. It displays a percentage satisfaction rating based on the number of "
+"reviews and the average rating."
+msgstr ""
+
+#: includes/admin-settings.php:218
+msgid "Your email has been sent to our support team."
+msgstr ""
+
+#: includes/admin-settings.php:220
+msgid "Error on sending email to support team."
+msgstr ""
+
+#: includes/admin-settings.php:262
+msgid "CommerceKit Settings has been saved."
+msgstr ""
+
+#: includes/admin-settings.php:281
+msgid ""
+"Conversion-boosting, performance-focused eCommerce features which work "
+"together seamlessly. From"
+msgstr ""
+
+#: includes/admin-settings.php:281
+msgid "CommerceGurus"
+msgstr ""
+
+#: includes/admin-settings.php:283
+msgid "Dashboard"
+msgstr ""
+
+#: includes/admin-settings.php:285
+msgid "Countdowns"
+msgstr ""
+
+#: includes/admin-settings.php:289
+msgid "PDP Triggers"
+msgstr ""
+
+#: includes/admin-settings.php:293
+msgid "Support"
+msgstr ""
+
+#: includes/admin-settings.php:453
+msgid "Error on saving settings."
+msgstr ""
+
+#: includes/admin-settings.php:458
+msgid "Settings has been saved."
+msgstr ""
+
+#: includes/admin-settings.php:480
+msgid "There are no waitlist for export."
+msgstr ""
+
+#: includes/admin-settings.php:489
+msgid "Selected waitlist has been deleted."
+msgstr ""
+
+#: includes/admin-settings.php:491
+msgid "Please select at least one waitlist for delete."
+msgstr ""
+
+#: includes/admin-support.php:12
+msgid "Contact support"
+msgstr ""
+
+#: includes/admin-support.php:19
+msgid "First name"
+msgstr ""
+
+#: includes/admin-support.php:20
+msgid "Enter your first name"
+msgstr ""
+
+#: includes/admin-support.php:24
+msgid "Your email"
+msgstr ""
+
+#: includes/admin-support.php:25
+msgid "Replies will be sent to this address"
+msgstr ""
+
+#: includes/admin-support.php:29
+msgid "URL"
+msgstr ""
+
+#: includes/admin-support.php:30
+msgid "A link where we can see the issue"
+msgstr ""
+
+#: includes/admin-support.php:34
+msgid "Question title"
+msgstr ""
+
+#: includes/admin-support.php:35
+msgid "Summarize your question in a few words"
+msgstr ""
+
+#: includes/admin-support.php:39
+msgid "Question"
+msgstr ""
+
+#: includes/admin-support.php:40
+msgid "Ensure that you have carefully looked through the "
+msgstr ""
+
+#: includes/admin-support.php:40
+msgid "documentation area"
+msgstr ""
+
+#: includes/admin-support.php:40
+msgid "first."
+msgstr ""
+
+#: includes/admin-support.php:42
+msgid "If you are including screenshots, try using: "
+msgstr ""
+
+#: includes/admin-support.php:42
+msgid "If you are including code, please use: "
+msgstr ""
+
+#: includes/admin-support.php:45
+msgid "Submit ticket"
+msgstr ""
+
+#: includes/admin-support.php:62
+msgid "Diagnostics"
+msgstr ""
+
+#: includes/admin-support.php:63
+msgid "Shoptimizer version"
+msgstr ""
+
+#: includes/admin-support.php:63
+msgid "Shoptimizer is not active"
+msgstr ""
+
+#: includes/admin-support.php:64
+msgid "WordPress version"
+msgstr ""
+
+#: includes/admin-support.php:65
+msgid "WooCommerce version"
+msgstr ""
+
+#: includes/admin-support.php:66
+msgid "Using a child theme?"
+msgstr ""
+
+#: includes/admin-support.php:66 includes/admin-waitlist.php:80
+#: includes/admin-waitlist.php:142
+msgid "Yes"
+msgstr ""
+
+#: includes/admin-support.php:66 includes/admin-waitlist.php:81
+#: includes/admin-waitlist.php:142
+msgid "No"
+msgstr ""
+
+#: includes/admin-support.php:66
+msgid "If you make customizations it&rsquo;s a good idea to use a"
+msgstr ""
+
+#: includes/admin-support.php:66
+msgid "child theme"
+msgstr ""
+
+#: includes/admin-waitlist.php:63
+msgid "List"
+msgstr ""
+
+#: includes/admin-waitlist.php:64
+msgid "Settings"
+msgstr ""
+
+#: includes/admin-waitlist.php:65 includes/admin-waitlist.php:193
+msgid "Emails"
+msgstr ""
+
+#: includes/admin-waitlist.php:72
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/admin-waitlist.php:73
+msgid "Delete"
+msgstr ""
+
+#: includes/admin-waitlist.php:74
+msgid "Export"
+msgstr ""
+
+#: includes/admin-waitlist.php:77
+msgid "Filter by Mail sent:"
+msgstr ""
+
+#: includes/admin-waitlist.php:79
+msgid "All"
+msgstr ""
+
+#: includes/admin-waitlist.php:83
+msgid "by Product ID:"
+msgstr ""
+
+#: includes/admin-waitlist.php:88
+msgid "items"
+msgstr ""
+
+#: includes/admin-waitlist.php:104
+msgid "of"
+msgstr ""
+
+#: includes/admin-waitlist.php:126
+msgid "Email"
+msgstr ""
+
+#: includes/admin-waitlist.php:127 includes/module-wishlist.php:329
+msgid "Product"
+msgstr ""
+
+#: includes/admin-waitlist.php:128
+msgid "Date added"
+msgstr ""
+
+#: includes/admin-waitlist.php:129
+msgid "Mail sent"
+msgstr ""
+
+#: includes/admin-waitlist.php:140
+msgid "ID"
+msgstr ""
+
+#: includes/admin-waitlist.php:149
+msgid "No Items"
+msgstr ""
+
+#: includes/admin-waitlist.php:164
+msgid "Enable waitlist for out of stock products"
+msgstr ""
+
+#: includes/admin-waitlist.php:165
+msgid "Introduction"
+msgstr ""
+
+#: includes/admin-waitlist.php:165 includes/module-waitlist.php:113
+msgid "Notify me when the item is back in stock."
+msgstr ""
+
+#: includes/admin-waitlist.php:166
+msgid "Email placeholder"
+msgstr ""
+
+#: includes/admin-waitlist.php:166 includes/module-waitlist.php:114
+msgid "Enter your email address..."
+msgstr ""
+
+#: includes/admin-waitlist.php:167
+msgid "Button label"
+msgstr ""
+
+#: includes/admin-waitlist.php:167 includes/module-waitlist.php:115
+msgid "Join waiting list"
+msgstr ""
+
+#: includes/admin-waitlist.php:168
+msgid "Consent label"
+msgstr ""
+
+#: includes/admin-waitlist.php:168 includes/module-waitlist.php:116
+msgid "I consent to being contacted by the store owner"
+msgstr ""
+
+#: includes/admin-waitlist.php:169
+msgid "Success message"
+msgstr ""
+
+#: includes/admin-waitlist.php:169 includes/module-waitlist.php:34
+msgid "You have been added to the waiting list for this product!"
+msgstr ""
+
+#: includes/admin-waitlist.php:170
+msgid "Read more label"
+msgstr ""
+
+#: includes/admin-waitlist.php:170 includes/module-waitlist.php:310
+msgid "Get notified"
+msgstr ""
+
+#: includes/admin-waitlist.php:181
+msgid ""
+"Available placeholders: {site_name}, {site_url}, {product_title}, "
+"{product_sku}, {product_link}"
+msgstr ""
+
+#: includes/admin-waitlist.php:196
+msgid "From Email"
+msgstr ""
+
+#: includes/admin-waitlist.php:196
+msgid ""
+"Please add a valid from email that ends with your domain to prevent spam "
+"mails."
+msgstr ""
+
+#: includes/admin-waitlist.php:197
+msgid "From Name"
+msgstr ""
+
+#: includes/admin-waitlist.php:197
+msgid "Please add a valid from name to prevent spam mails."
+msgstr ""
+
+#: includes/admin-waitlist.php:197
+msgid "To improve the deliverability of these mails"
+msgstr ""
+
+#: includes/admin-waitlist.php:197
+msgid "we recommend you install the"
+msgstr ""
+
+#: includes/admin-waitlist.php:197
+msgid "WP Mail SMTP"
+msgstr ""
+
+#: includes/admin-waitlist.php:197
+msgid "plugin."
+msgstr ""
+
+#: includes/admin-waitlist.php:201
+msgid "Notification recipient"
+msgstr ""
+
+#: includes/admin-waitlist.php:201
+msgid "Please add a valid recipient email for admin notification."
+msgstr ""
+
+#: includes/admin-waitlist.php:201
+msgid ""
+"Enter recipient that will receive admin notification. Site Administration "
+"Email is default value."
+msgstr ""
+
+#: includes/admin-waitlist.php:205
+msgid "Enable automatic emails when the item is back in stock"
+msgstr ""
+
+#: includes/admin-waitlist.php:206 includes/admin-waitlist.php:227
+#: includes/admin-waitlist.php:248
+msgid "Email Subject"
+msgstr ""
+
+#: includes/admin-waitlist.php:206
+msgid "A product you are waiting for is back in stock!"
+msgstr ""
+
+#: includes/admin-waitlist.php:207 includes/admin-waitlist.php:228
+#: includes/admin-waitlist.php:249
+msgid "Email Content"
+msgstr ""
+
+#: includes/admin-waitlist.php:209 includes/module-waitlist.php:240
+msgid ""
+"Hi, {product_title} is now back in stock on {site_name}. You have been sent "
+"this email because your email address was registered in a waiting list for "
+"this product. If you would like to purchase {product_title}, please visit "
+"the following link: {product_link}"
+msgstr ""
+
+#: includes/admin-waitlist.php:226
+msgid ""
+"Enable mails to the store owner when a customer signs up to the waitlist"
+msgstr ""
+
+#: includes/admin-waitlist.php:227
+msgid "You have a new waiting list request"
+msgstr ""
+
+#: includes/admin-waitlist.php:230 includes/module-waitlist.php:46
+msgid ""
+"Hi, You got a waiting list request from {site_name} for the following: "
+"Product Name: {product_title}, SKU: {product_sku}, Product link: "
+"{product_link}"
+msgstr ""
+
+#: includes/admin-waitlist.php:247
+msgid "Enable mail to the customer when they sign up to a waitlist"
+msgstr ""
+
+#: includes/admin-waitlist.php:248
+msgid "We have received your waiting list request"
+msgstr ""
+
+#: includes/admin-waitlist.php:251 includes/module-waitlist.php:61
+msgid ""
+"Hi, We have received your waiting list request from {site_name} for the "
+"following: Product Name: {product_title}, SKU: {product_sku}, Product link: "
+"{product_link}"
+msgstr ""
+
+#: includes/admin-waitlist.php:277
+msgid ""
+"Product waitlists are used to notify interested shoppers when sold-out "
+"products are back in stock. This module collects data on customers who sign "
+"up."
+msgstr ""
+
+#: includes/admin-wishlist.php:14
+msgid ""
+"Note: You will need to create a wishlist page and include this shortcode on "
+"it - [commercegurus_wishlist]"
+msgstr ""
+
+#: includes/admin-wishlist.php:16
+msgid "Enable wishlist functionality"
+msgstr ""
+
+#: includes/admin-wishlist.php:17
+msgid "&ldquo;Add to wishlist&rdquo; text"
+msgstr ""
+
+#: includes/admin-wishlist.php:17 includes/module-wishlist.php:70
+#: includes/module-wishlist.php:215
+msgid "Add to wishlist"
+msgstr ""
+
+#: includes/admin-wishlist.php:18
+msgid "&ldquo;Product added&rdquo; text"
+msgstr ""
+
+#: includes/admin-wishlist.php:18 includes/module-wishlist.php:72
+msgid "Product added"
+msgstr ""
+
+#: includes/admin-wishlist.php:19
+msgid "&ldquo;Browse wishlist&rdquo; text"
+msgstr ""
+
+#: includes/admin-wishlist.php:19 includes/module-wishlist.php:71
+#: includes/module-wishlist.php:210
+msgid "Browse wishlist"
+msgstr ""
+
+#: includes/admin-wishlist.php:20
+msgid "Wishlist page"
+msgstr ""
+
+#: includes/admin-wishlist.php:30
+msgid ""
+"Choose your wishlist page and set it to be full width. Ensure that it is "
+"excluded from any caching solutions."
+msgstr ""
+
+#: includes/admin-wishlist.php:39
+msgid ""
+"A wishlist allows shoppers to create personalized collections of products "
+"they want to buy and save them for future reference."
+msgstr ""
+
+#: includes/class-commercegurus-commercekit.php:97
+msgid ""
+"CommerceGurus CommerceKit requires WooCommerce 4.0+ to be activated to work."
+msgstr ""
+
+#: includes/class-commercegurus-commercekit.php:102
+#, php-format
+msgid ""
+"CommerceGurus CommerceKit - The minimum WooCommerce version required for "
+"this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#: includes/class-commercegurus-commercekit.php:141
+msgid "The domain name to check."
+msgstr ""
+
+#: includes/module-ajax-search.php:143
+msgid "Product Category"
+msgstr ""
+
+#: includes/module-ajax-search.php:146
+msgid "Product Tag"
+msgstr ""
+
+#: includes/module-ajax-search.php:196
+msgid "Post"
+msgstr ""
+
+#: includes/module-ajax-search.php:199
+msgid "Page"
+msgstr ""
+
+#: includes/module-countdown-timer.php:24
+msgid "HRS"
+msgstr ""
+
+#: includes/module-countdown-timer.php:25
+msgid "MINS"
+msgstr ""
+
+#: includes/module-countdown-timer.php:26
+msgid "SECS"
+msgstr ""
+
+#: includes/module-countdown-timer.php:29
+msgid "days"
+msgstr ""
+
+#: includes/module-countdown-timer.php:30
+msgid "hours"
+msgstr ""
+
+#: includes/module-countdown-timer.php:31
+msgid "minutes"
+msgstr ""
+
+#: includes/module-countdown-timer.php:32
+msgid "seconds"
+msgstr ""
+
+#: includes/module-order-bump.php:190 includes/module-wishlist.php:417
+msgid "Error on adding to cart."
+msgstr ""
+
+#: includes/module-order-bump.php:211 includes/module-wishlist.php:431
+msgid "Sucessfully added to cart."
+msgstr ""
+
+#: includes/module-waitlist.php:19
+msgid "Error on submitting for waiting list."
+msgstr ""
+
+#: includes/module-waitlist.php:45
+msgid "You have a new waiting list request."
+msgstr ""
+
+#: includes/module-waitlist.php:60
+msgid "We have received your waiting list request."
+msgstr ""
+
+#: includes/module-waitlist.php:239
+msgid "A product your waiting for is back in stock."
+msgstr ""
+
+#: includes/module-wishlist.php:19 includes/module-wishlist.php:136
+msgid "Error on submitting for wishlist list."
+msgstr ""
+
+#: includes/module-wishlist.php:170
+msgid "Product removed"
+msgstr ""
+
+#: includes/module-wishlist.php:330
+msgid "Price"
+msgstr ""
+
+#: includes/module-wishlist.php:331
+msgid "Stock Status"
+msgstr ""
+
+#: includes/module-wishlist.php:373
+msgid "In Stock"
+msgstr ""
+
+#: includes/module-wishlist.php:373
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/module-wishlist.php:378
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/module-wishlist.php:380
+msgid "Select Options"
+msgstr ""
+
+#: includes/module-wishlist.php:383
+msgid "View Product"
+msgstr ""
+
+#: includes/module-wishlist.php:392
+msgid "No products in your wishlist"
+msgstr ""
+
+#: includes/module-wishlist.php:473 includes/module-wishlist.php:490
+msgid "My wishlist"
+msgstr ""
+
+#: includes/modules.php:115
+msgid ""
+"You will need to first disable the YITH Wishlist plugin in order to use the "
+"CommerceKit Wishlist feature."
+msgstr ""
+
+#: includes/pdp-gallery-swiper.php:137
+msgid "Awaiting product image"
+msgstr ""
+
+#: includes/templates/search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: includes/templates/search.php:22 includes/templates/search.php:237
+msgid "Products"
+msgstr ""
+
+#: includes/templates/search.php:23
+msgid "Contents"
+msgstr ""

@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_shoptimizer">
+            <key name="shoptimizer_layout_floating_button_text" />
+        </key>
+    </admin-texts> 
+</wpml-config>
+
+

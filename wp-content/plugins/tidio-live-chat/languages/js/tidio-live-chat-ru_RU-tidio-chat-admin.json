@@ -1,0 +1,45 @@
+{
+   "domain": "tidio-live-chat",
+   "locale_data": {
+      "tidio-live-chat": {
+         "": {
+            "domain": "tidio-live-chat",
+            "plural_forms": "nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));",
+            "lang": "ru"
+         },
+         "Loading...": [
+            "Загрузка..."
+         ],
+         "Can’t be empty!": [
+            "Не может оставаться пустым!"
+         ],
+         "Email can’t be empty!": [
+            "Содержимое эл. письма не может быть пустым!"
+         ],
+         "Email is invalid!": [
+            "Недействительный адрес эл. почты!"
+         ],
+         "Start using Tidio": [
+            "Начать использовать Tidio"
+         ],
+         "Something went wrong.": [
+            "Что-то пошло не так."
+         ],
+         "You have been blocked for too many attempts. Please try again in an hour.": [
+            "Ваш аккаунт заблокирован из-за слишком большого количества попыток. Пожалуйста, повторите попытку через час."
+         ],
+         "Password can’t be empty!": [
+            "Поле Пароль не может оставаться пустым!"
+         ],
+         "Wrong email or password": [
+            "Неверный адрес эл. почты или пароль"
+         ],
+         "Go to Tidio panel": [
+            "Перейти на панель Tidio"
+         ],
+         "Error occured while creating, please try again!": [
+            "При создании произошла ошибка, пожалуйста, повторите попытку!"
+         ]
+      }
+   }
+}

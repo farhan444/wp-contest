@@ -1,0 +1,16 @@
+2021-11-10T07:22:45+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/675386.cloudwaysapps.com/qvbwwywcgw/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php:73
+Stack trace:
+#0 /home/675386.cloudwaysapps.com/qvbwwywcgw/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(602): WC_Cart_Session->get_cart_from_session()
+#1 /home/675386.cloudwaysapps.com/qvbwwywcgw/public_html/wp-content/plugins/beeketing-for-woocommerce/src/Platforms/WooCommerce/Data/CartManager.php(61): WC_Cart->get_cart()
+#2 /home/675386.cloudwaysapps.com/qvbwwywcgw/public_html/wp-content/plugins/beeketing-for-woocommerce/src/Platforms/WooCommerce/Plugin/Hooks.php(413): BeeketingConnect_beeketing_woocommerce\Platforms\WooCommerce\Data\CartManager->get(false)
+#3 /home/675386.cloudwaysapps.com/qvbwwywcgw/public_html/wp-content/plugins/beeketing-for-woocommerce/src/Platforms/WooCommerce/Plugin/Hooks.php(389): BeeketingConnect_beeketing_woocommerce\Platforms\WooCommerce\Plugin\Hooks->getPageSnippet()
+#4 /home/ in /home/675386.cloudwaysapps.com/qvbwwywcgw/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php on line 73
+
+2021-11-10T07:54:10+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::isGroup() in /home/675386.cloudwaysapps.com/qvbwwywcgw/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ViewIframe.php:40
+Stack trace:
+#0 /home/675386.cloudwaysapps.com/qvbwwywcgw/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ControllerPreRenderSlider.php(29): Nextend\SmartSlider3\Application\Frontend\Slider\ViewIframe->display()
+#1 [internal function]: Nextend\SmartSlider3\Application\Frontend\Slider\ControllerPreRenderSlider->actionIframe()
+#2 /home/675386.cloudwaysapps.com/qvbwwywcgw/public_html/wp-content/plugins/smart-slider-3/Nextend/Framework/Controller/AbstractController.php(95): call_user_func_array(Array, Array)
+#3 /home/675386.cloudwaysapps.com/qvbwwywcgw/public_html/wp-content/plugins/smart-slider-3/Nextend/Framework/Application/AbstractApplicationType.php(88): Nextend\Framework\Controller\AbstractController->doAction('iframe', Array)
+#4 /home/675386.clo in /home/675386.cloudwaysapps.com/qvbwwywcgw/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ViewIframe.php on line 40
+

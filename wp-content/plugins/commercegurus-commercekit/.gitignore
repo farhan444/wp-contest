@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+commercegurus-commercekit.zip
+vendor/
+composer.lock
+.vscode/
+.editorconfig
+.vscode
+.eslintrc.js

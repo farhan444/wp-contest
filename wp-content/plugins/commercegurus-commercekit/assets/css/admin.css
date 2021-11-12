@@ -1,0 +1,667 @@
+/* CSS Document */
+.tab-content a,
+.intro a {
+	color: #267ffd;
+}
+.tab-content a:hover,
+.intro a:hover {
+	color: #1c64f2;
+}
+.form-table th {
+	font-weight: 500;
+    font-size: 15px;
+}
+.wp-core-ui select:hover {
+	color: inherit;
+}
+.toggle-switch {
+	position: relative;
+	display: inline-block;
+	width: 54px;
+	height: 26px;
+	margin-right: 10px;
+}
+.toggle-switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.toggle-slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	border-radius: 34px;
+}
+.toggle-slider:before {
+	position: absolute;
+	content: "";
+	height: 18px;
+	width: 18px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+	border-radius: 50%;
+}
+.postbox .handlediv {
+    float: right;
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: 0 0;
+    cursor: pointer;
+}
+input:checked + .toggle-slider {
+	background-color: #2196F3;
+}
+input:focus + .toggle-slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .toggle-slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+input[type=radio].pdt-type {
+	margin-right: 5px;
+	position: relative;
+	margin-top: -2px;
+}
+span.radio-space {
+	display: inline-block;
+	width: 50px;
+}
+#settings-content {
+	width: calc(100% - 345px);
+	display: inline-block;
+}
+#settings-content .dashboard h2 {
+	display: flex;
+    justify-content: space-between;
+}
+#settings-note {
+	width: 255px;
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: top;
+	padding: 10px 30px 15px 30px;
+}
+#settings-note h4 {
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: 0;
+	color: #111;
+}
+#settings-note p {
+	font-size: 14px;
+	line-height: 1.43;
+	font-weight: 300;
+	color: #666;
+	letter-spacing: 0.008em;
+}
+#settings-note img {
+	max-width: 200px;
+}
+#settings-note p strong {
+	color: #222;
+	font-weight: 700;
+	font-size: 14px;
+}
+#settings-note .child-message {
+	display: block;
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+	margin-top: 15px;
+	font-size: 14px;
+	color: #323232;
+}
+#checkout-countdown {
+	margin-top: 20px;
+	width: 100%;
+	display: inline-block;
+}
+#product-countdown {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.postbox {
+	box-shadow: 0 1px 10px rgba(0,0,0,0.08);
+	margin-bottom: 15px;
+}
+
+.content-box h2 {
+	border-bottom: 1px solid #f1f1f1;
+	padding: 15px 20px;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.content-box h2.gray {
+	border: 0px !important;
+	cursor: move;
+	padding: 13px 22px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #444;
+}
+.ends-wrap label {
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+}
+.ends-wrap input.ends {
+	width: 95px;
+	display: inline-block;
+}
+input.title {
+	width: 100%;
+}
+button.handlediv {
+	height: 46px !important;
+}
+.wp-core-ui .button-secondary {
+	padding: 2px 12px;
+}
+.button-secondary .dashicons {
+	margin-top: 8px;
+	margin-left: -6px;
+	font-size: 15px;
+}
+.setting-page-title {
+	margin-top: 36px;
+	color: #111;
+	font-size: 38px;
+	font-weight: 600;
+}
+p.intro {
+	margin-bottom: 10px;
+	font-size: 18px;
+    font-weight: 400;
+    color: #777;
+    letter-spacing: 0.005em;
+}
+p.intro a {
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+/* Tabs */
+.nav-tab-wrapper {
+	margin-bottom: 30px;
+}
+
+.nav-tab {
+	padding: 8px 14px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.nav-tab.nav-tab-active {
+	color: #111;
+}
+
+/* Forms */
+.form-table td {
+	font-size: 15px;
+	font-weight: 300;
+	padding: 10px 10px;
+}
+
+.form-table th {
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.form-table small {
+	color: #666;
+}
+
+input, textarea {
+	font-size: 15px;
+}
+
+select.conditions {
+	width: 100%;
+}
+span.ends-label {
+	font-size: 11px;
+	color: #888;
+}
+.submit-button .button-primary {
+	font-size: 16px;
+    padding: 5px 30px;
+    font-weight: 400;
+	height: 46px;
+}
+.add-new-countdown .button-primary {
+	background: #FFF !important;
+	color: #000 !important;
+	border: 2px solid #CCC !important;
+	border-radius: 0px;
+	padding: 5px 10px 5px;
+	font-size: 18px;
+	box-shadow: none !important;
+}
+.add-new-countdown .button-primary span {
+	border: 1px solid #000;
+	border-radius: 50%;
+	padding: 3px 3px 1px;
+	margin-right: 5px;
+	margin-top: 7px;
+}
+#commercekit-form {
+	position: relative;
+}
+#commercekit-form #ajax-loading-mask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #FFF;
+	opacity: 0.7;
+	display: none;
+	z-index: 99;
+}
+#commercekit-form #ajax-loading-mask .ajax-loading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background:  url(../images/loading.gif) center center no-repeat;
+	visibility: visible;
+}
+.tab-content .delete-countdown,
+.tab-content .delete-orderbump {
+	color: #f00;
+	font-weight: 500;
+    font-size: 14px;
+}
+.tab-content .delete-countdown:hover,
+.tab-content .delete-orderbump:hover {
+	color: #c10b0b;
+}
+.extra-notes {
+	float: right;
+	width: calc(100% - 250px);
+	font-size: 18px;
+	line-height: 25px;
+}
+.extra-notes h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.extra-notes ul {
+	margin: 0px;
+	padding-left: 20px;
+}
+.extra-notes ul li {
+	list-style: disc;
+}
+#commercekit_wsl_page {
+	width: 100%;
+	max-width: 80%;
+	margin-bottom: 10px;
+}
+.admin-wishlist input {
+	width: 80%;
+}
+#settings-content.dashboard h2 {
+	display: flex;
+    justify-content: space-between;
+}
+.content-box h2 span.table-heading {
+	text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+table.admin-dashboard th {
+	width: 70px;
+	text-align: right;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+table.admin-dashboard h4 {
+	margin: 0px;
+	padding: 0px;
+	color: #0073aa;
+	font-weight: 600;
+	font-size: 18px;
+}
+table.admin-dashboard h4 a {
+	text-decoration: none;
+}
+.postbox.closed {
+	border-bottom: 1px solid #ccd0d4;
+}
+.form-table td p {
+	font-size: 15px;
+	margin-top: 0px;
+}
+table.admin-dashboard.form-table td.right {
+	font-size: 13px;
+	color: #666;
+	line-height: 1.5;
+}
+table.admin-dashboard.form-table td.right strong {
+	color: #444;
+	font-size: 15px;
+}
+table.admin-support h4 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-weight: 600;
+}
+table.admin-support p {
+	margin-bottom: 7px;
+    margin-top: 2px;
+    font-size: 14px;
+    color: #666;
+}
+table.admin-support span.star,
+table.admin-order-bump span.star,
+table.countdown-timer span.star {
+	color: #f00;
+	font-weight: bold;
+	font-size: 16px;
+}
+table.admin-order-bump select.error,
+table.admin-order-bump span.error,
+table.admin-order-bump input.error,
+table.countdown-timer input.error,
+table.product-gallery input.error {
+	border: 2px solid #f00;
+}
+table.admin-order-bump .input-error,
+table.countdown-timer .input-error,
+table.product-gallery .input-error {
+	color: #f00;
+	font-weight: 500;
+    font-size: 12px;
+    margin-top: 4px;
+}
+table.admin-support input.input {
+	width: 80%;
+	padding: 10px;
+	border-color: #ccc;
+}
+table.admin-support input.input:focus,
+table.admin-support textarea:focus {
+	outline: none;
+    box-shadow: 0 0 0 3px rgba(164,202,254,.45);
+    border-color: #a4cafe !important;
+}
+table.admin-support textarea.input {
+	width: 100%;
+	min-height: 200px;
+	padding: 10px;
+	border-color: #ccc;
+}
+.wp-core-ui table.admin-support .button-primary {
+	font-size: 16px;
+    padding: 5px 30px;
+    font-weight: 400;
+	height: 46px;
+}
+.cg-notice-success {
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 13px 16px;
+    border-left: 2px solid #46b450;
+    margin: 20px 10px;
+    background: #f1faf2;
+}
+.cg-notice-success p {
+	font-size: 14px;
+	margin: 0;
+	color: #2ea238;
+}
+table.admin-dashboard span.inactive {
+	background: #F7F7F7;
+    color: #888888;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    top: -3px;
+    position: relative;
+}
+table.admin-dashboard tr.active span.inactive {
+	display: none;
+}
+.dashicons-info {
+	position: relative;
+}
+.tooltip {
+ 	position:relative; 
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 0px;
+	top: 0;
+}
+.tooltip:before {
+  content: attr(data-text); /* here's the magic */
+  position:absolute;
+  font-family: sans-serif;
+  top:50%;
+  transform:translateY(-50%);
+  font-size: 12px;
+  line-height: 1.4em;
+  /* move to right */
+  left: 30px;
+  margin-left:0px; /* and add a small left margin */
+  z-index: 10;
+  /* basic styles */
+  width:200px;
+  padding:10px;
+  border-radius:3px;
+  background:#000;
+  color: #fff;
+  text-align:center;
+
+  display:none; /* hide by default */
+}
+.tooltip:hover:before {
+  display:block;
+}
+.tooltip:after {
+  content: "";
+  position:absolute;
+  
+  /* position tooltip correctly */
+  left:100%;
+  margin-left:-5px;
+ 
+  /* vertically center */
+  top:50%;
+  transform:translateY(-50%);
+ 
+  /* the arrow */
+  border:10px solid #000;
+  border-color: transparent black transparent transparent;
+  
+  display:none;
+}
+.tooltip:hover:before, .tooltip:hover:after {
+  display:block;
+}
+#ctd-order-notice {
+	color: #666;
+	font-size: 14px;
+	padding-top: 10px;
+	width: 100%;
+	font-weight: 400;
+}
+.form-warning {
+	clear: both;
+	color: red;
+	font-weight: bold;
+	padding: 10px 0px;
+}
+ul.subtabs {
+	display: block;
+	width: 100%;
+	padding: 0px;
+	margin: -10px 0 15px;
+	list-style: none;
+	font-size: 14px;
+}
+ul.subtabs li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+ul.subtabs li a {
+	color: #0073aa;
+	text-decoration: none;
+}
+ul.subtabs li a.active {
+	color: #000;
+	font-weight: 600;
+    border: none;
+}
+ul.order-bump-statistics {
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0 -15px 0;
+}
+ul.order-bump-statistics li {
+	width: calc(20% - 25px);
+	display: inline-block;
+	border-right: 2px solid #f1f1f1;
+	padding: 10px;
+	vertical-align: text-top;
+}
+ul.order-bump-statistics li:last-child {
+	border-right: 0px;
+}
+ul.order-bump-statistics li .title {
+	font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #666;
+}
+ul.order-bump-statistics li .text-large {
+	font-size: 26px;
+	font-weight: 600;
+}
+ul.order-bump-statistics li .text-small {
+	font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: #4f626c;
+    margin-top: 6px;
+}
+ul.order-bump-statistics li .progress-bar {
+	width: 100%;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #f1f1f1;
+	position: relative;
+}
+ul.order-bump-statistics li .progress-bar span {
+	height: 6px;
+	border-radius: 3px;
+	background-color: #46b450;
+	position: absolute;
+}
+/* Beta module */
+.beta-module {
+	font-size: 10px;
+    position: relative;
+    color: #111;
+    background: #fdc900;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    top: -2px;
+    margin-left: 4px;
+    font-weight: 500;
+}
+.explainer {
+	border: 1px solid #e2e2e2;
+	padding: 10px 20px;
+	margin: 20px 10px;
+}
+.explainer h3 {
+	font-weight: 600;
+	color: #111;
+	margin-bottom: 10px;
+}
+.explainer p {
+	font-size: 14px;
+    line-height: 1.43;
+    font-weight: 300;
+    color: #333;
+    letter-spacing: 0.008em;
+}
+/* Ajax Search Reports */
+.postbox .ajax-search-reports .ajax-search-reports-box h2 {
+	border: 0px;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0;
+}
+.postbox .ajax-search-reports h2 {
+	margin-top: 30px;
+	font-weight: 600;
+	border: none;
+}
+.postbox .ajax-search-reports p {
+	font-weight: 300;
+	font-size: 14px;
+	color: #666;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.ajax-search-reports .ajax-search-reports-box h3 {
+	margin: 0 0 15px 0;
+	font-size: 36px;
+	font-weight: 600;
+}
+.postbox .ajax-search-reports {
+	padding: 10px 20px;
+}
+
+.ajax-search-reports-boxes {
+	display: grid;
+ 	grid-template-columns: repeat(3, minmax(0, 1fr));
+ 	column-gap: 20px;
+}
+.ajax-search-reports .ajax-search-reports-box {
+	padding: 20px;
+	border: 1px solid #e2e2e2;
+}
+
+table.ajax-search-reports-list {
+	width: 100%;
+	margin-top: 15px;
+	border-collapse: collapse;
+}
+table.ajax-search-reports-list th,
+table.ajax-search-reports-list td {
+	padding: 8px 0;
+	border-bottom: 1px solid #e2e2e2;
+	font-size: 14px;
+}
+table.ajax-search-reports-list th span,
+table.ajax-search-reports-list td span {
+	color: #B4B2B2;
+	display: inline-block;
+	width: 25px;
+}
+.ajax-search-reports .report-note {
+	font-weight: bold;
+	color: #f00;
+}
+
